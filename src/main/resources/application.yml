@@ -3,3 +3,10 @@ guru:
     username: JMS Username
     password: somepass
     url: someUrl
+
+--- #file separator
+spring:
+  profiles: de #this profile will overwrite the above properties
+guru:
+  jms:
+    username: JMS Username $$$$$ German
